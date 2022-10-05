@@ -1,0 +1,176 @@
+body {
+    font-size: 15px;
+}
+
+.pricing-table {
+    background: #F6F9FC;
+}
+
+.price-hading .text-muted {
+    color: #A6B3CC;
+}
+
+.price-hading h2 {
+    position: relative;
+}
+
+.price-hading h2:after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 47%;
+    top: 130%;
+    background: #0D6EFD;
+}
+
+.single-item {
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 1 1 20px black;
+    transition: all 0.6s ease-in-out;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.single-item:hover {
+    background: #3763EB;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.single-item:hover .btn {
+    background: #fff!important;
+    color: #0D6EFD!important;
+}
+
+.single-item h5 {
+    transition: 1.5s
+}
+
+.single-item h1 {
+    transition: 1.5s
+}
+
+.single-item:hover h1 {
+    color: #fff;
+    transition: 1.5s;
+}
+
+.single-item:hover h5 {
+    color: #fff;
+    transition: 1.5s;
+}
+
+.single-item:hover .hidden {
+    visibility: visible;
+    opacity: 1;
+    color: #fff;
+}
+
+.single-item .btn {
+    position: relative;
+    z-index: 1!important;
+    border: none;
+}
+
+.single-item .btn:hover {
+    color: #fff!important;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.single-item .btn::after {
+    content: "";
+    width: 0;
+    height: 100%;
+    background: #0D6EFD;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    z-index: -1!important;
+    transition: 0.3s;
+}
+
+.single-item .btn:hover:after {
+    width: 100%;
+}
+
+
+/* ----------Buy Now Section------------ */
+
+.buy-now {
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(37, 88, 240, 0.7), rgba(37, 88, 240, 0.7)), url(../images/free-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buy-now .btn {
+    position: relative;
+    z-index: 1;
+}
+
+.buy-now .btn:hover {
+    color: #fff !important;
+}
+
+.buy-now .btn::after {
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #0D6EFD;
+    transition: 0.3s;
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.buy-now .btn:hover::after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.buynow-content {
+    margin-top: 120px;
+}
+
+.buynow-content h2 {
+    position: relative;
+}
+
+.buynow-content h2::after {
+    content: "";
+    width: 82px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 46%;
+    bottom: -36%;
+}
+
+.subscribe-btn {
+    margin-top: 103px;
+}
+
+.newslatter {
+    background: #F6F9FC;
+}
+
+.n-getstart-button {
+    background: #fff;
+    box-shadow: 0 0 1px rgb(233, 228, 228);
+}
+
+a.btn.bg-primary.text-light {
+    margin-top: 60px;
+}
